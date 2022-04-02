@@ -222,6 +222,7 @@ li p {
     color: #11255F;
     font-weight: bold;
     font-size: 1.4rem;
+    background: linear-gradient(transparent 55%, #dbeaff 20%);
 }
 
 .more-link {
@@ -231,9 +232,16 @@ li p {
     right: 0px;
     top: 20px;
     background-color: #11255F;
+    text-shadow: 2px 2px 0 #0f1f50;
     color: #fff;
     padding: 3px 5px;
     border-radius: 6px 6px 0 6px;
+    cursor: pointer;
+}
+
+.more-link:hover {
+    background-color: #ffb700;
+    text-shadow: 2px 2px 0 #ffa600;
 }
 
 .top-gif {
@@ -246,10 +254,10 @@ li p {
 
 .mobile-gif {
     display: none;
-    width: 90%;
+    width: 99%;
     margin: 20px auto 0px auto;
     position: relative;
-    left: 45%;
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -273,12 +281,21 @@ li p {
 }
 
 .shop-nav a {
-    color: #11255F;
+    color: #fff;
     text-decoration: none;
+    background-color: #3b56a5;
+    padding: 2px 6px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0px #11255F;
+    text-shadow: 2px 2px 0px #2f4588;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .shop-nav a:hover {
-    color: #ffb700;
+    background-color: #ffc400;
+    box-shadow: 3px 3px 0px #ffa600;
+    text-shadow: 2px 2px 0px #ffa600;
 }
 
 @media(max-width:768px) {
@@ -292,7 +309,7 @@ li p {
         padding: 20px 12px;
     }
     .shop-nav {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-bottom: 10px;
     }
     .more-link {
