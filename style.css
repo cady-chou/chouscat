@@ -198,6 +198,11 @@ li p {
     background-image: url(img/水果喵.png);
 }
 
+.theme-13 {
+    background-size: cover;
+    background-image: url(img/露營\ bg.png);
+}
+
 .more-move {
     border-bottom: 1px solid #cecece;
     padding-bottom: 3px;
