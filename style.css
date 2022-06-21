@@ -203,6 +203,11 @@ li p {
     background-image: url(img/露營\ bg.png);
 }
 
+.theme-14 {
+    background-size: cover;
+    background-image: url(img/宇宙喵.png);
+}
+
 .more-move {
     border-bottom: 1px solid #cecece;
     padding-bottom: 3px;
