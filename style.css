@@ -208,6 +208,11 @@ li p {
     background-image: url(img/宇宙喵.png);
 }
 
+.theme-15 {
+    background-size: cover;
+    background-image: url(img/游泳喵.png);
+}
+
 .more-move {
     border-bottom: 1px solid #cecece;
     padding-bottom: 3px;
